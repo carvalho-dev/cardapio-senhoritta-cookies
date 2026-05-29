@@ -7,20 +7,29 @@ body {
 }
 
 header {
-    background-color: #764c24;
     margin: auto;
-    padding: 20px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 1px 6px 1px rgb(88, 88, 88);
 }
 
-.div-header{
+.div-header {
+    background-color: #764c24;
+    padding: 20px 0;
+}
+
+.div-logo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.div-header img{
+.div-logo img{
     width: 7vh;
 }
 
@@ -31,6 +40,8 @@ header {
     align-items: center;
     padding: 5px 10px;
     border-radius: 10px;
+    width: 85%;
+    margin: auto;
 }
 
 .div-search i {
@@ -67,7 +78,7 @@ nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 20px 0;
+    margin: 10px 0 0;
 }
 
 .div-nav-buttom {
