@@ -8,45 +8,50 @@ body {
 
 header {
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     position: fixed;
     top: 0;
     background-color: white;
     width: 100%;
-    box-shadow: 0 1px 6px 1px rgb(88, 88, 88);
+    box-shadow: 0 1px 4px 0.5px rgb(228, 228, 228);
 }
 
 .div-header {
-    background-color: #764c24;
-    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
 }
 
-.div-logo{
+.div-logo {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    background-color: #764c24;
+    height: 5vh;
+    border-radius: 100px;
+    padding: 5px;
 }
 
 .div-logo img{
-    width: 7vh;
+    width: 5vh;
 }
 
 .div-search{
     display: flex;
-    background-color: white;
     height: 1.5rem;
     align-items: center;
     padding: 5px 10px;
-    border-radius: 10px;
-    width: 85%;
-    margin: auto;
+    border-radius: 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #764c24;
 }
 
 .div-search i {
     color: #764c24;
 }
+
 .div-input-search {
     width: 100%;
 }
@@ -55,6 +60,7 @@ header {
     all: unset;
     width: 100%;
     color: #764c24;
+
 }
 
 .div-input-search input::placeholder {
@@ -71,33 +77,25 @@ header {
 
 nav {
     margin: auto;
-    width: 90%;
+    width: 93%;
 }
 
 .div-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    margin: 10px 0 0;
 }
 
-.div-nav-buttom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 6em;
-    border: 2px solid #764c24;
-    border-radius: 50px;
-    color: white;
-}
-
-.div-nav-buttom button {
+.div-nav button {
     all:unset;
-    padding: 10px;
-    font-size: 0.85em;
+    width: 4rem;
+    padding: 8px 10px;
+    font-size: 0.7rem;
     font-weight: bold;
+    text-align: center;
     color: #764c24;
+    border: 1px solid #764c24;
+    border-radius: 50px;
 }
 
 .container {
@@ -106,6 +104,7 @@ nav {
     align-items: center;
     width:90%;
     margin: auto;
+    padding-top: 120px;
     padding-bottom: 180px;
 }
 
@@ -196,7 +195,7 @@ footer {
 .div-carrinho {
     display: flex;
     justify-content: space-between;
-    margin: 20px auto 20px;
+    margin: 15px auto 15px;
 }
 
 .div-carrinho h2 {
@@ -216,9 +215,10 @@ footer {
     width: 100%;
     text-align: center;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .div-cri p {
+    font-size: 0.8rem;
     text-align: center;
 }
