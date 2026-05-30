@@ -24,6 +24,7 @@
             </div>
             <nav>
                 <div class="div-nav">
+                    <button class="ativo">Todos</button>
                     <button>Combo</button>
                     <button>Tradicional</button>
                     <button>Recheado</button>
@@ -35,89 +36,16 @@
         <main>
             <div class="container">
                 <h1>Cardápio</h1>
-                <div class="div-produtos">
-                    <div class="div-cookie">
-                        <img src="images/trad.png" alt="foto_cookie">
-                        <div class="div-cabecalho-cookie">
-                            <h1>Tradicional</h1>
-                            <span>R$00,00</span>
-                        </div>
-                        <div class="div-descricao">
-                            <p>Massa amanteigada crocante por fora, macia por dentro e cheia de gotas de chocolate.</p>
-                        </div>
-                        <div class="div-add-carrinho">
-                            <div class="div-quantidade">
-                                <i class="bi bi-dash-circle-fill"></i>
-                                <span>8</span>
-                                <i class="bi bi-plus-circle-fill"></i>
-                            </div>
-                            <button class="add-button">Adicionar</button>
-                        </div>
-                    </div>
-                    <div class="div-cookie">
-                        <img src="images/tradicional.png" alt="foto_cookie">
-                        <div class="div-cabecalho-cookie">
-                            <h1>Chocolate</h1>
-                            <span>R$00,00</span>
-                        </div>
-                        <div class="div-descricao">
-                            <p>Massa escura e intensa com pedaços de chocolate que derretem na boca</p>
-                        </div>
-                        <div class="div-add-carrinho">
-                            <div class="div-quantidade">
-                                <i class="bi bi-dash-circle-fill"></i>
-                                <span>8</span>
-                                <i class="bi bi-plus-circle-fill"></i>
-                            </div>
-                            <button class="add-button">Adicionar</button>
-                        </div>
-                    </div>
-                    <div class="div-cookie">
-                        <img src="images/nutella.png" alt="foto_cookie">
-                        <div class="div-cabecalho-cookie">
-                            <h1>Nutella</h1>
-                            <span>R$00,00</span>
-                        </div>
-                        <div class="div-descricao">
-                            <p>O clássico cookie dourado com um recheio generoso e cremoso de creme de avelã.</p>
-                        </div>
-                        <div class="div-add-carrinho">
-                            <div class="div-quantidade">
-                                <i class="bi bi-dash-circle-fill"></i>
-                                <span>8</span>
-                                <i class="bi bi-plus-circle-fill"></i>
-                            </div>
-                            <button class="add-button">Adicionar</button>
-                        </div>
-                    </div>
-                    <div class="div-cookie">
-                        <img src="images/red.png" alt="foto_cookie">
-                        <div class="div-cabecalho-cookie">
-                            <h1>Red Velvet</h1>
-                            <span>R$00,00</span>
-                        </div>
-                        <div class="div-descricao">
-                            <p>Massa vermelha aveludada com o contraste perfeito de gotas de chocolate branco.</p>
-                        </div>
-                        <div class="div-add-carrinho">
-                            <div class="div-quantidade">
-                                <i class="bi bi-dash-circle-fill"></i>
-                                <span>8</span>
-                                <i class="bi bi-plus-circle-fill"></i>
-                            </div>
-                            <button class="add-button">Adicionar</button>
-                        </div>
-                    </div>
-                </div>
+                <div class="div-produtos"></div>
             </div>
         </main>
         <footer>
             <div class="div-footer">
                 <div class="div-carrinho">
                     <h2>Carrinho</h2>
-                    <span>R$ 00,00</span>
+                    <span></span>
                 </div>
-                <div class="div-buttom">
+                <div class="div-button-whats" onclick="finalizarPedido()">
                 <button>Finalizar Pedido no WhatsApp</button>
                 </div>
                 <div class="div-cri">
@@ -126,5 +54,6 @@
                 </div>
             </div>
         </footer>
+        <script src="script.js"></script>
   </body>
 </html>
