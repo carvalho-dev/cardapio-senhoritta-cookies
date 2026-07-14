@@ -9,48 +9,62 @@ const cardapio = { //Variável para criar o objeto cardapio
     "Tradicional": [ //Lista com varios objetos (cookies)
         { //Propriedade do objeto: id, nome, preco, descricao e imagem
             id: 101,
-            nome: "Cookie Tradicional de Nutella",
-            preco: 10.00,
-            descricao: "Massa amanteigada crocante por fora, macia por dentro e cheia de gotas de chocolate.",
-            imagem: "images/trad.png"
+            nome: "Cookie Classico",
+            preco: 8.00,
+            descricao: "Massa amanteigada (manteiga noisette com notas de avelã) com pedaços de chocolate nobre ao leite. ",
+            imagem: "images/classico.png"
         },
         { //propriedade do objeto: id, nome, preco, descricao e imagem
             id: 102,
-            nome: "Chocolate",
-            preco: 10.00, 
-            descricao: "Massa escura e intensa com pedaços de chocolate que derretem na boca",
-            imagem: "images/choc.png"
+            nome: "Cookie Laka",
+            preco: 8.00, 
+            descricao: "Massa amanteigada (manteiga noisette com notas de avelã) com pedaços de chocolate Laka.",
+            imagem: "images/laka.png"
         }
     ],
 
     "Recheado": [ //Lista com varios objetos (cookies)
         { //Propriedade do objeto: id, nome, preco, descricao e imagem
             id: 201,
-            nome: "Nutella",
-            preco: 12.00,
-            descricao: "O clássico cookie dourado com um recheio generoso e cremoso de creme de avelã.",
-            imagem: "images/nut.png"
+            nome: "Cookie Ninho com Nutella",
+            preco: 10.00,
+            descricao: "Massa amanteigada (manteiga noisette com notas de avelã). Recheado com brigadeiro de Ninho e Nutella",
+            imagem: "images/ninho_nutella.png"
+        },
+        { //Propriedade do objeto: id, nome, preco, descricao e imagem
+            id: 202,
+            nome: "Cookie Red Velvet",
+            preco: 10.00,
+            descricao: "Massa de cacau com pedaços de chocolate nobre branco. Recheado com brigadeiro de cream cheese .",
+            imagem: "images/red_velvet.png"
         }
     ],
 
     "Marmita": [ //Lista com varios objetos (cookies)
         { //Propriedade do objeto: id, nome, preco, descricao e imagem
             id: 301,
-            nome: "Marmita 01",
+            nome: "Marmita Matilda",
             preco: 20.00,
-            descricao: "Marmita top.",
-            imagem: "images/mar.png"
+            descricao: "Massa de chocolate com pedaços de chocolate nobre ao leite e meio amargo. Recheado com brigadeiro meio amargo e ganache de chocolate ao leite.",
+            imagem: "images/marmita_matilda.png"
+        },
+        { //Propriedade do objeto: id, nome, preco, descricao e imagem
+            id: 302,
+            nome: "Marmita Matilda",
+            preco: 20.00,
+            descricao: "Massa amanteigada (manteiga noisette com notas de avelã) com pedaços de chocolate nobre ao leite. Recheado com Nutella.",
+            imagem: "images/marmita_nutella.png"
         }
     ],
     
     "Combo": [ //Lista com varios objetos (cookies)
         { //Propriedade do objeto: id, nome, preco, descricao e imagem
             id: 401,
-            nome: "Combo 01",
-            preco: 45.00,
-            descricao: "Cookie Tradicional, Cookie...",
-            imagem: "images/combo.png"
-        }
+            nome: "Menu Degustação",
+            preco: 39.00,
+            descricao: "Cookie classico, Chocolatudo, Laka, Ninho com Nutella e Red Velvet.",
+            imagem: "images/menu.png"
+        },
     ],
 }
 
